@@ -14,6 +14,7 @@ if err != nil {
 	return err
 }
 defer resp.Body.Close()
+json.NewDecoder(resp.Body).Decode(&data)
 ```
 
 ### After
@@ -24,6 +25,7 @@ if err != nil {
 	return err
 }
 defer drainclose.Close(resp.Body)
+json.NewDecoder(resp.Body).Decode(&data)
 ```
 
 ## License
