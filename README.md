@@ -2,6 +2,8 @@
 
 Make it 4x faster for your app
 
+See https://github.com/google/go-github/pull/317
+
 ## Usage
 
 ### Before
