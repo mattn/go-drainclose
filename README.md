@@ -1,6 +1,6 @@
 # go-drainclose
 
-Make it 4x faster for your app
+Make your app 4x faster.
 
 See https://github.com/google/go-github/pull/317
 
